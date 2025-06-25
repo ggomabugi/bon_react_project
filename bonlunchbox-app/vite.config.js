@@ -10,7 +10,7 @@ export default defineConfig({
   // Cross-origin 간주하고 이를 차단! CROS
   server : {
     proxy:{
-      '/api' : 'http://localhost:8088'
+      '/api' : 'http://52.78.242.90:8088'
     }
   }
 

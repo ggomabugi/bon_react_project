@@ -11,7 +11,7 @@ const [goods,setGoods]=useState();
 
 // async : 비동기 선언
 const getGoodsList = async ()=>{
-  const GOODS_URL = "http://localhost:8088/lunch/api/goods_list"
+  const GOODS_URL = "http://52.78.242.90:8088/lunch/api/goods_list"
   let res = await axios.get(GOODS_URL);
   let data = res.data;
   console.log(data);
